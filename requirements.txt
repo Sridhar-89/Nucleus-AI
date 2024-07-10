@@ -1,0 +1,11 @@
+sys
+
+pytube
+moviepy.editor
+VideoFileClip
+openai 
+OpenAI
+contextlib
+os
+dotenv 
+load_dotenv
