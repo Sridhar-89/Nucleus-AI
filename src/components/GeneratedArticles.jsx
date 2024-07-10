@@ -500,10 +500,10 @@ const GeneratedArticles = () => {
       </Transition.Root>
 
       <div className="flex justify-between items-center mt-4">
-        <PlagiarismCheck />
+        {/* <PlagiarismCheck />
         <GrammarCheck />
         <SEOOptimization />
-        <Rating />
+        <Rating /> */}
         <button
           className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 focus:outline-none focus:ring focus:ring-green-300"
           onClick={() => console.log('Article saved')}
