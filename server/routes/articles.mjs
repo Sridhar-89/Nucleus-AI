@@ -201,7 +201,7 @@ router.post('/translate', async (req, res) => {
       model: llm,
       messages: [
         { role: 'system', content: 'You are a helpful assistant.' },
-        { role: 'user', content: `Translate the following content to ${language}, and approximately ${wordCount} words with a ${tone} tone: ${mainContent}` },
+        { role: 'user', content: `Translate the following content to ${language}, and maintaining the original meaning and context accurately. Keep the structure of the article same as the original article: ${mainContent}` },
       ],
       max_tokens: parseInt(wordCount) * 5,
     });

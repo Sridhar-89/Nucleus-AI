@@ -462,7 +462,7 @@ const VideoTranscription = () => {
   return (
     <div className="p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-2xl font-semibold mb-4">Video Transcription</h2>
-      <input type="file" accept="video/*" onChange={handleFileChange} />
+      <input type="file" accept="video/*,audio/*" onChange={handleFileChange} />
       <br />
       <input type="text" placeholder="Enter video URL" value={url} onChange={handleUrlChange} />
       <button
